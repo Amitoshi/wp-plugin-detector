@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WP Plugin Detector</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="wrap">
+    <h1>WP Plugin Detector</h1>
+    <p class="sub">Scans the current tab for WordPress plugin asset URLs.</p>
+
+    <button id="scanBtn">Scan Current Page</button>
+
+    <div id="status" class="status">Ready.</div>
+    <div id="meta" class="meta"></div>
+
+    <div class="actions hidden" id="actions">
+      <button id="copyBtn" class="secondary">Copy Plugin Names</button>
+      <button id="copyUrlsBtn" class="secondary">Copy Full URLs</button>
+    </div>
+
+    <ul id="results" class="results"></ul>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

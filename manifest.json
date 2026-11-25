@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "WP Plugin Detector",
+  "version": "1.0.0",
+  "description": "Detect WordPress plugins loaded on the current page by scanning asset URLs.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "WP Plugin Detector"
+  }
+}
